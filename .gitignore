@@ -1,0 +1,19 @@
+# Local Laravel configuration (may contain credentials)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Installed dependencies
+**/vendor/
+**/node_modules/
+
+# Generated Laravel cache and runtime files
+**/bootstrap/cache/*
+!**/bootstrap/cache/.gitignore
+**/storage/framework/*
+!**/storage/framework/.gitignore
+**/storage/logs/*
+!**/storage/logs/.gitignore
+
+# Local SQLite databases
+**/database/*.sqlite
